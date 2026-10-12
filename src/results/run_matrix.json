@@ -1,0 +1,3592 @@
+{
+ "schema_version": 1,
+ "split_seed": 42,
+ "seeds": [
+  42,
+  123,
+  456,
+  789,
+  1024
+ ],
+ "gpr_max_samples": 5248,
+ "jobs": [
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS01",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS03",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS04",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS05",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS06",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS07",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08a",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS08c",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD002",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD003",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "c_qrnn",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "c_qrnn",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "c_qrnn",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "c_qrnn",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "c_qrnn",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "c_mdn",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "c_mdn",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "c_mdn",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "c_mdn",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "c_mdn",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "uacqr",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "uacqr",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "uacqr",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "uacqr",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "uacqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "distcp",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "distcp",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "distcp",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "distcp",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "distcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "weighted_cqr",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "weighted_cqr",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "weighted_cqr",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "weighted_cqr",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "weighted_cqr",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "wqlcp",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "wqlcp",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "wqlcp",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "wqlcp",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "wqlcp",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "edl",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "edl",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "edl",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "edl",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "edl",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "cgpr",
+   "seed": null,
+   "deterministic": true
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "cxgbq",
+   "seed": 42
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "cxgbq",
+   "seed": 123
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "cxgbq",
+   "seed": 456
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "cxgbq",
+   "seed": 789
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "cxgbq",
+   "seed": 1024
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD004",
+   "method": "raw_qrnn",
+   "seed": null,
+   "ensemble_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+   ]
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "width_32",
+    "factor": "width",
+    "value": 32
+   }
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "width_64",
+    "factor": "width",
+    "value": 64
+   }
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "width_128",
+    "factor": "width",
+    "value": 128
+   }
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "depth_1",
+    "factor": "depth",
+    "value": 1
+   }
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "depth_2",
+    "factor": "depth",
+    "value": 2
+   }
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "depth_3",
+    "factor": "depth",
+    "value": 3
+   }
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "drop_0.0",
+    "factor": "dropout",
+    "value": 0.0
+   }
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "drop_0.2",
+    "factor": "dropout",
+    "value": 0.2
+   }
+  },
+  {
+   "dataset": "ncmapss",
+   "subset": "DS02",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "drop_0.5",
+    "factor": "dropout",
+    "value": 0.5
+   }
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "width_32",
+    "factor": "width",
+    "value": 32
+   }
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "width_64",
+    "factor": "width",
+    "value": 64
+   }
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "width_128",
+    "factor": "width",
+    "value": 128
+   }
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "depth_1",
+    "factor": "depth",
+    "value": 1
+   }
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "depth_2",
+    "factor": "depth",
+    "value": 2
+   }
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "depth_3",
+    "factor": "depth",
+    "value": 3
+   }
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "drop_0.0",
+    "factor": "dropout",
+    "value": 0.0
+   }
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "drop_0.2",
+    "factor": "dropout",
+    "value": 0.2
+   }
+  },
+  {
+   "dataset": "cmapss",
+   "subset": "FD001",
+   "method": "arch_ablation",
+   "seed": 42,
+   "config": {
+    "id": "drop_0.5",
+    "factor": "dropout",
+    "value": 0.5
+   }
+  }
+ ]
+}

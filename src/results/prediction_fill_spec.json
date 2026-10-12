@@ -1,0 +1,68 @@
+{
+  "P1": {
+    "status": "MISS",
+    "observed": "EDL (pooled |dev| 0.0534)",
+    "why": "The weight estimator collapses on the most shifted subsets (DS05-DS07: ESS/n 0.06-0.09, fallback in 4-5/5 seeds), reverting Weighted-CP to uniform-weight split-CP where the shift is worst. EDL's epistemic intervals (pooled |dev| 0.053) beat the QRNN-calibrated family (0.122-0.126).",
+    "date": "2026-09-24"
+  },
+  "P2": {
+    "status": "MISS",
+    "observed": "tie BROKEN (all 6 TOST pairs rejected at margin 0.03, n=162 units)",
+    "why": "All six TOST pairs among the four split-CP arms were rejected at the +/-0.03 margin on 162 per-unit PICPs, so the four-way tie did not survive unit-level data.",
+    "date": "2026-09-24"
+  },
+  "P3": {
+    "status": "MISS",
+    "observed": "Raw QRNN (Winkler 14.21 at pooled PICP 0.499)",
+    "why": "Raw QRNN wins raw Winkler by keeping intervals narrow (14.21) while its pooled PICP falls to 0.499, far short of the 0.90 nominal. Among arms at pooled coverage >= 0.80, C-GPR is best (38.76).",
+    "date": "2026-09-24"
+  },
+  "P4": {
+    "status": "MISS",
+    "observed": "Raw QRNN (NMPIW 0.410 at pooled PICP 0.499)",
+    "why": "Same mechanism as P3: the narrowest intervals (0.410) are bought with coverage (pooled PICP 0.499). Among arms at pooled coverage >= 0.80, C-GPR is narrowest (1.179 vs DistCP 1.196).",
+    "date": "2026-09-24"
+  },
+  "P5": {
+    "status": "MISS",
+    "observed": "Weighted-CP CQR (CWC 4.7245 vs UACQR-S 5.0156)",
+    "why": "Weighted-quantile recalibration tightened the C-QRNN intervals just enough to edge out UACQR-S (CWC 4.7245 vs 5.0156, margin 0.29).",
+    "date": "2026-09-24"
+  },
+  "P6": {
+    "status": "MISS",
+    "observed": "tie=False; EDL best shifted pooled RS (0.126)",
+    "why": "The four split-CP arms' per-unit RS fall outside the +/-0.03 equivalence margin, and EDL posts the lowest shifted pooled RS (0.126 vs 0.141-0.203 for the named arms).",
+    "date": "2026-09-24"
+  },
+  "P7": {
+    "status": "MISS",
+    "observed": "EDL (mean |dev| 0.107 vs UACQR-S 0.131)",
+    "why": "EDL's mean |dev| across per-subset/per-stage groups is 0.107 versus UACQR-S's 0.131; DistCP (0.121) is the closest runner-up.",
+    "date": "2026-09-24"
+  },
+  "P8": {
+    "status": "HIT",
+    "observed": "UACQR-S-style (MAE 8.40, RMSE 10.98, both best on N-CMAPSS)",
+    "why": null,
+    "date": "2026-09-24"
+  },
+  "P9": {
+    "status": "HIT",
+    "observed": "UACQR-S-style (RUL score 2.3342)",
+    "why": null,
+    "date": "2026-09-24"
+  },
+  "P10": {
+    "status": "HIT",
+    "observed": "C-GPR (crossing 0.0000, in the six-arm zero-crossing tie)",
+    "why": null,
+    "date": "2026-09-24"
+  },
+  "P11": {
+    "status": "MISS",
+    "observed": "DistCP/HPD-split + EDL (rank-sum 4 tie; C-XGBQ 16)",
+    "why": "DistCP and EDL tie at rank-sum 4 (footprint 0.005/0.030 MB, latency 0.002/0.002 ms per sample). C-XGBQ's 1.17 MB footprint ties it at rank-sum 16 with the QRNN ensembles.",
+    "date": "2026-09-24"
+  }
+}

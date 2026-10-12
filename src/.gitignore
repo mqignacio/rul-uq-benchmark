@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Data files (never commit large data)
+data/raw/*.h5
+data/raw/cmapss/
+data/preprocessed/
+
+# Test fixtures are small and needed for CI — track them
+!tests/fixtures/*.h5
+
+# Model artifacts
+model/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Results (tracked selectively: experiment_results.json + run_matrix.json are the
+# authoritative raw record; large/derived artifacts stay untracked)
+results/eval/per_seed/
+results/pred/
+results/cache/
+results/logs/
+results/analysis/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
